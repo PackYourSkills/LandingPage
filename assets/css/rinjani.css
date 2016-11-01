@@ -357,13 +357,14 @@ p {
 .navbar.navbar-fixed-top .navbar-brand {
   color: #fff;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   height: 60px;
   line-height: 60px;
   padding-top: 0px;
   padding-bottom: 0px;
   letter-spacing: 0.1em;
+  font-family: 'Amatic SC', cursive;
 }
 .navbar.navbar-fixed-top .navbar-brand:hover {
   color: #fff;
