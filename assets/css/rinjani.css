@@ -614,16 +614,18 @@ span.navbar-trigger-close a:hover {
   left: 20px;
 }
 
-@media (min-width: 1280px) {
-  #intro .intro-body .logo {
+#intro .intro-body .flag {
+  position: absolute;
   display: block;
-  }
+  bottom: 20px;
+  right: 20px;
+  padding:0px;
 }
 
-@media (min-width: 1280px) {
-  #intro .intro-body .logo {
-  display: block;
-  }
+#intro .intro-body .flag img {
+  border-radius: 50%;
+  width: 20px;
+  height:20px;
 }
 
 #intro .intro-body .intro-text h1 {
