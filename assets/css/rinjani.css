@@ -990,10 +990,7 @@ footer.footer #footer ul.social-icon-list > li a {
 footer.footer #footer ul.social-icon-list > li a:hover {
   border-color: #ffffff;
 }
-footer.footer #footer .newsletter-form input {
-  background-color: transparent;
-  border-color: #888;
-}
+
 footer.footer #copyright {
   background-color: #161616;
   padding: 15px 0px;
