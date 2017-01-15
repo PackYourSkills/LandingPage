@@ -845,6 +845,12 @@ span.navbar-trigger-close a:hover {
   color:rgb(236,96,95);
 }
 
+@media (min-width: 768px) {
+  #meet-the-team .team-element {
+    margin-bottom: 20px;
+  }
+}
+
 #meet-the-team .team-item > .team-element {
   position: relative;
   display: block;
