@@ -114,20 +114,20 @@ h2{
   background-position: center;
 }
 
+.content_box a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.content_box a:hover {
+  border:solid 10px rgb(219,63,94);
+}
+
 #mission1 {
   background-image: url("../img/missions/1.jpg");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission1 .content_box a {
-  background-image: url("../img/missions/Titre1.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission1 .content_box a:hover {
-  background-image: url("../img/missions/Titre1_hover.png");
   background-size: cover !important;
   background-position: center;
 }
@@ -138,32 +138,8 @@ h2{
   background-position: center;
 }
 
-#mission2 .content_box a {
-  background-image: url("../img/missions/Titre2.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission2 .content_box a:hover {
-  background-image: url("../img/missions/Titre2_hover.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
 #mission3 {
   background-image: url("../img/missions/3.jpg");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission3 .content_box a {
-  background-image: url("../img/missions/Titre3.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission3 .content_box a:hover {
-  background-image: url("../img/missions/Titre3_hover.png");
   background-size: cover !important;
   background-position: center;
 }
@@ -174,32 +150,8 @@ h2{
   background-position: center;
 }
 
-#mission4 .content_box a {
-  background-image: url("../img/missions/Titre4.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission4 .content_box a:hover {
-  background-image: url("../img/missions/Titre4_hover.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
 #mission5 {
   background-image: url("../img/missions/5.jpg");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission5 .content_box a {
-  background-image: url("../img/missions/Titre5.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission5 .content_box a:hover {
-  background-image: url("../img/missions/Titre5_hover.png");
   background-size: cover !important;
   background-position: center;
 }
@@ -210,32 +162,8 @@ h2{
   background-position: center;
 }
 
-#mission6 .content_box a {
-  background-image: url("../img/missions/Titre6.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission6 .content_box a:hover {
-  background-image: url("../img/missions/Titre6_hover.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
 #mission7 {
   background-image: url("../img/missions/7.jpg");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission7 .content_box a {
-  background-image: url("../img/missions/Titre7.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission7 .content_box a:hover {
-  background-image: url("../img/missions/Titre7_hover.png");
   background-size: cover !important;
   background-position: center;
 }
@@ -246,50 +174,14 @@ h2{
   background-position: center;
 }
 
-#mission8 .content_box a {
-  background-image: url("../img/missions/Titre8.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission8 .content_box a:hover {
-  background-image: url("../img/missions/Titre8_hover.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
 #mission9 {
   background-image: url("../img/missions/9.jpg");
   background-size: cover !important;
   background-position: center;
 }
 
-#mission9 .content_box a {
-  background-image: url("../img/missions/Titre9.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission9 .content_box a:hover {
-  background-image: url("../img/missions/Titre9_hover.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
 #mission10 {
   background-image: url("../img/missions/10.jpg");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission10 .content_box a {
-  background-image: url("../img/missions/Titre10.png");
-  background-size: cover !important;
-  background-position: center;
-}
-
-#mission10 .content_box a:hover {
-  background-image: url("../img/missions/Titre10_hover.png");
   background-size: cover !important;
   background-position: center;
 }
