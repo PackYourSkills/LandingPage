@@ -1,0 +1,367 @@
+body {
+  text-align:center;
+  color:white;
+  background-color:rgb(219,63,94);
+}
+
+p{
+  font-size:24px;
+  font-weight:300;
+}
+
+h1{
+  font-size:60px;
+  font-weight:900;
+}
+
+h2{
+  font-size:18px;
+  font-weight:300;
+}
+
+.text_banner{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#banner{
+  background-image: url("../img/missions/cover.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position:relative;
+  min-height:40vh;
+}
+
+#text_intro{
+  margin:10px;
+}
+.bouton{
+  border:solid white;
+  margin:10px;
+  padding:10px;
+}
+.container{
+  margin:0;
+  width:100%;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding:0px;
+}
+
+.box {
+  min-height: 100px;
+
+  border:solid 3px white;
+  background-size: cover !important;
+  background-position:bottom;
+
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
+.content_box {
+  height:100%;
+  width:100%;
+}
+.content_box a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.box_ratio_1_1{
+  position: relative;
+  width: 100%;   /* desired width */
+}
+.box_ratio_1_1:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
+}
+
+.box_ratio_2_1{
+  position: relative;
+  width: 100%;   /* desired width */
+}
+.box_ratio_2_1:before{
+  content: "";
+  display: block;
+  padding-top: 50%;  /* initial ratio of 1:1*/
+}
+
+#last_row{
+  background-color:white;
+}
+
+.missionoffline{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-image: url("../img/missions/offline.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission1 {
+  background-image: url("../img/missions/1.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission1 .content_box a {
+  background-image: url("../img/missions/Titre1.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission1 .content_box a:hover {
+  background-image: url("../img/missions/Titre1_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission2 {
+  background-image: url("../img/missions/2.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission2 .content_box a {
+  background-image: url("../img/missions/Titre2.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission2 .content_box a:hover {
+  background-image: url("../img/missions/Titre2_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission3 {
+  background-image: url("../img/missions/3.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission3 .content_box a {
+  background-image: url("../img/missions/Titre3.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission3 .content_box a:hover {
+  background-image: url("../img/missions/Titre3_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission4 {
+  background-image: url("../img/missions/4.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission4 .content_box a {
+  background-image: url("../img/missions/Titre4.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission4 .content_box a:hover {
+  background-image: url("../img/missions/Titre4_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission5 {
+  background-image: url("../img/missions/5.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission5 .content_box a {
+  background-image: url("../img/missions/Titre5.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission5 .content_box a:hover {
+  background-image: url("../img/missions/Titre5_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission6 {
+  background-image: url("../img/missions/6.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission6 .content_box a {
+  background-image: url("../img/missions/Titre6.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission6 .content_box a:hover {
+  background-image: url("../img/missions/Titre6_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission7 {
+  background-image: url("../img/missions/7.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission7 .content_box a {
+  background-image: url("../img/missions/Titre7.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission7 .content_box a:hover {
+  background-image: url("../img/missions/Titre7_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission8 {
+  background-image: url("../img/missions/8.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission8 .content_box a {
+  background-image: url("../img/missions/Titre8.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission8 .content_box a:hover {
+  background-image: url("../img/missions/Titre8_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission9 {
+  background-image: url("../img/missions/9.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission9 .content_box a {
+  background-image: url("../img/missions/Titre9.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission9 .content_box a:hover {
+  background-image: url("../img/missions/Titre9_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission10 {
+  background-image: url("../img/missions/10.jpg");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission10 .content_box a {
+  background-image: url("../img/missions/Titre10.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#mission10 .content_box a:hover {
+  background-image: url("../img/missions/Titre10_hover.png");
+  background-size: cover !important;
+  background-position: center;
+}
+
+#video{
+  background-color:white;
+  color:black;
+}
+#video p{
+  font-weight:500;
+}
+
+/*---------------------------------------------------------------------*/
+/*  16. FOOTER
+/*---------------------------------------------------------------------*/
+footer.footer {
+  color: #888;
+  background-color: #1c1c1c;
+  border-top: 2px solid white;
+  text-align:center;
+  padding-top:20px;
+}
+footer.footer a {
+  color: #c9c9c9;
+}
+footer.footer a:hover {
+  color: #ffffff;
+}
+
+footer.footer #footer h4 {
+  color: #c9c9c9;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 0.2em;
+}
+footer.footer #footer p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+footer.footer #footer ul.icon-list > li {
+  padding-bottom: 10px;
+}
+footer.footer #footer ul.icon-list > li > i {
+  padding-right: 10px;
+}
+footer.footer #footer ul.social-icon-list > li {
+  padding-bottom: 10px;
+}
+footer.footer #footer ul.social-icon-list > li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #c9c9c9;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+footer.footer #footer ul.social-icon-list > li a:hover {
+  border-color: #ffffff;
+}
+
+footer.footer #copyright {
+  background-color: #161616;
+  padding: 15px 0px;
+  border-top: 1px solid rgba(114, 114, 114, 0.25);
+}
+footer.footer #copyright p {
+  font-size: 13px;
+  text-align: center;
+  margin: 0px;
+}
