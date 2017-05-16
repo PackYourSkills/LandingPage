@@ -1,6 +1,20 @@
-body{
+body {
   color:rgb(33,25,23);
   background-color:rgb(235,230,225);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 10px 0 10px;
 }
 
 .container{
@@ -32,7 +46,6 @@ body{
   background-repeat: no-repeat;
   background-position: center center;
   position:relative;
-  text-align:center;
   color:white;
 }
 
@@ -41,6 +54,7 @@ body{
   bottom:0px;
   margin-bottom:10vh;
   font-size:8vh;
+  text-align:center;
 }
 
 #mission{
@@ -48,35 +62,91 @@ body{
   padding-top:10px;
   padding-bottom:10px;
   margin:10px;
+  position:relative;
 }
+#mission .list {
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+
+#mission .social-icon-list a {
+  color: #c9c9c9;
+}
+
+#mission .social-icon-list a:hover {
+  color: rgb(33,25,23);
+}
+
+#mission ul.social-icon-list > li a:hover {
+  border-color: rgb(33,25,23);
+}
+
 #logo {
   width: 100%;
   height:auto;
 }
 
 #opportunity {
-  background-color:rgb(235,230,225);
-  border:solid 10px white;
-  text-align:center;
-  padding-left:20px;
-  padding-right:20px;
+  margin:10px;
 }
 
-#opportunity h2 {
+#opportunity .titre {
+  text-align:center;
+}
+#opportunity .text {
   text-align:left;
+  background-color:rgb(219,63,94);
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+
+#place_of_work{
+  margin:10px;
+  background-color:white;
 }
 
 #place_of_work .image{
   background-image: url("../img/Sensecube/Office.jpg");
 }
 
+@media (min-width: 768px) {
+  #place_of_work .image {
+    border-right:solid 10px rgb(235,230,225);
+  }
+}
+
+#place_of_work .text{
+  text-align:left;
+  padding:20px;
+}
+
 #home {
-  background-color:rgb(219,63,94);
-  color:white;
+  background-color:white;
+  margin:10px;
 }
 
 #home .image{
   background-image: url("../img/Sensecube/Home.jpg");
+}
+
+#home .text{
+  text-align:left;
+  height:40vh;
+  padding:20px;
+}
+
+@media (min-width: 768px) {
+  #home .text {
+    border-right:solid 10px rgb(235,230,225);
+  }
+}
+
+#quote {
+  background-color:rgb(219,63,94);
+  color:white;
 }
 
 #quote h2{
@@ -89,46 +159,92 @@ body{
 }
 
 #team {
-  background-color:rgb(219,63,94);
-  color:white;
+  background-color:white;
+  margin:10px;
+  text-align:center;
+}
+
+#team #number{
+  text-align:center;
+  border-bottom:solid 10px rgb(235,230,225);
 }
 
 #team .image{
   background-image: url("../img/Sensecube/Team.jpg");
 }
 
+@media (min-width: 768px) {
+  #team .image {
+    border-right:solid 10px rgb(235,230,225);
+  }
+}
+
+#team .text{
+  text-align:left;
+}
+
 #values{
+  margin:10px;
   text-align:center;
-  padding-left:20px;
-  padding-right:20px;
+  border:solid 5px white;
+}
+
+#values .titre {
+}
+#values .text {
+  background-color:white;
+  padding:5px;
+}
+
+
+#message_map{
+  height:30vh;
+  background-color:white;
+  text-align:center;
+  margin:10px;
 }
 
 #message{
-  background-color:rgb(112,112,112);
-  text-align:center;
-  padding-left:20px;
-  padding-right:20px;
-  color:white;
+  height:30vh;
+}
+
+@media (min-width: 768px) {
+  #message {
+    border-right:solid 10px rgb(235,230,225);
+  }
+}
+
+#map{
+  background-image: url("../img/Sensecube/map.png");
+  height:30vh;
+  border:solid 10px white;
 }
 
 #apply{
-  height:10vh;
+  color:rgb(219,63,94);
+  margin:10px;
+  text-align:center;
+}
+
+#apply h1{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#bouton{
   background-color:rgb(219,63,94);
   color:white;
-  text-align:center;
   position:relative;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border: 5px solid rgb(219,63,94);
 }
 
-#apply:hover {
+#bouton:hover {
   background-color:white;
   color:rgb(219,63,94);
-  border-top: 2px solid rgb(219,63,94);
-  border-bottom: 2px solid rgb(219,63,94);
+  border: 5px solid rgb(219,63,94);
 }
 
-#apply a{
+#bouton a{
   position:absolute;
   bottom:0;
   right:0;
@@ -163,16 +279,16 @@ footer.footer #footer p {
   font-size: 14px;
   margin-bottom: 20px;
 }
-footer.footer #footer ul.icon-list > li {
+ul.icon-list > li {
   padding-bottom: 10px;
 }
-footer.footer #footer ul.icon-list > li > i {
+ul.icon-list > li > i {
   padding-right: 10px;
 }
-footer.footer #footer ul.social-icon-list > li {
+ul.social-icon-list > li {
   padding-bottom: 10px;
 }
-footer.footer #footer ul.social-icon-list > li a {
+ul.social-icon-list > li a {
   display: block;
   width: 40px;
   height: 40px;
@@ -185,7 +301,7 @@ footer.footer #footer ul.social-icon-list > li a {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-footer.footer #footer ul.social-icon-list > li a:hover {
+ul.social-icon-list > li a:hover {
   border-color: #ffffff;
 }
 
