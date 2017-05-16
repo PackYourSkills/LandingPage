@@ -57,6 +57,29 @@ p {
   text-align:center;
 }
 
+#cover .bouton {
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+
+#cover .bouton a {
+  color:rgba(255,255,255,0.5);
+  border:solid 1px rgba(255,255,255,0.5);
+  padding:5px;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+#cover .bouton a:hover {
+  color:rgba(255,255,255,1);
+  border:solid 1px rgba(255,255,255,1);
+  padding:5px;
+  border-radius:5px;
+  text-decoration:none;
+  background-color: rgba(255,255,255,0.3);
+}
+
 #mission{
   background-color:white;
   padding-top:10px;
