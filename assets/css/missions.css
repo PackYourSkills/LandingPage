@@ -224,7 +224,11 @@ h2{
 
 #newsletter #mc_embed_signup {
   background-color:rgb(219,63,94);
+  color:black;
+}
 
+#newsletter #mc_embed_signup .label{
+  color:white;
 }
 /*---------------------------------------------------------------------*/
 /*  16. FOOTER
