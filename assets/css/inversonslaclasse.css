@@ -41,7 +41,7 @@ p {
 
 #cover {
   height:40vh;
-  background-image: url("../img/ToChange/Cover.jpg");
+  background-image: url("../img/InversonsLaClasse/Cover.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -133,7 +133,7 @@ p {
 }
 
 #place_of_work .image{
-  background-image: url("../img/ToChange/Office.jpg");
+  background-image: url("../img/InversonsLaClasse/Office.jpg");
 }
 
 @media (min-width: 768px) {
@@ -153,7 +153,7 @@ p {
 }
 
 #home .image{
-  background-image: url("../img/ToChange/Home.jpg");
+  background-image: url("../img/InversonsLaClasse/Home.jpg");
 }
 
 #home .text{
@@ -194,7 +194,7 @@ p {
 }
 
 #team .image{
-  background-image: url("../img/ToChange/Team.jpg");
+  background-image: url("../img/InversonsLaClasse/Team.jpg");
 }
 
 @media (min-width: 768px) {
@@ -239,7 +239,7 @@ p {
 }
 
 #map{
-  background-image: url("../img/ToChange/Map.png");
+  background-image: url("../img/InversonsLaClasse/Map.png");
   height:30vh;
   border:solid 10px white;
 }
