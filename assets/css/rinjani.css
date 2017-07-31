@@ -648,13 +648,13 @@ span.navbar-trigger-close a:hover {
 
 #intro .intro-body .intro-text p {
   margin: 0;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 200;
 }
 
 @media (min-width: 768px) {
   #intro .intro-body .intro-text p {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
